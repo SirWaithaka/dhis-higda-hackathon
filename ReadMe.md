@@ -11,9 +11,9 @@ Participants were given 4 data sets
   * [Immunization Dataset](https://play.dhis2.org/release1/api/25/analytics.json?dimension=dx:YtbsuPPo010;l6byfWFUGaP;s46m5MS0hxu&dimension=pe:LAST_12_MONTHS&filter=ou:ImspTQPwCqd&displayProperty=NAME&skipMeta=true)
 
 Requires authentication to access:
-  Basic auth
-    * user - "admin"
-    * password - "district"
+Basic auth
+  * user - "admin"
+  * password - "district"
 
 ##### Task 1
 Generate tables out of the first 2 datasets and make them search-able.
