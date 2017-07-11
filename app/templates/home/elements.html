@@ -1,0 +1,48 @@
+{% import "bootstrap/utils.html" as utils %}
+{% extends "layout.html" %}
+{% block title %}Organisation Units{% endblock %}
+{% block body %}
+<div class="content-section">
+  <div class="outer">
+    <div class="middle">
+      <div class="inner">
+        <br/>
+        {{ utils.flashed_messages() }}
+        <br/>
+        <h1 style="text-align:center;">Data Elements</h1>
+        {% if data_elements %}
+          <hr class="intro-divider">
+          <div class="center">
+            <table class="table table-striped table-bordered">
+              <thead>
+                <tr>
+                  <th width="30%"> Id </th>
+                  <th width="70%"> Data Elements </th>
+                </tr>
+              </thead>
+              <tbody>
+              {% for element in data_elements %}
+                <tr>
+                  <td> {{ element['id'] }} </td>
+                  <td> {{ element['displayName'] }} </td>
+                </tr>
+              {% endfor %}
+              </tbody>
+            </table>
+          </div>
+          <div style="text-align: center">
+        {% else %}
+          <div style="text-align: center">
+            <h3> No Data Elements have been found. </h3>
+            <hr class="intro-divider">
+        {% endif %}
+          <a href="" class="btn btn-default btn-lg">
+            <i class="fa fa-plus"></i>
+            Add Data Element
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
