@@ -1,5 +1,4 @@
 import requests
-import pandas as pd
 
 # dhis authentication
 auth = {
