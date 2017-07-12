@@ -13,16 +13,29 @@
         {% if organisation_units %}
           <hr class="intro-divider">
           <div class="center">
-            <table class="table table-striped table-bordered">
+            <form class="form-inline">
+              <div class="form-group">
+                <label for="">Search by id</label>
+                <input type="text" class="form-control" id="by_id" name="id" placeholder="Search by Id">
+              </div>
+              <div class="form-group">
+                <label for="name">Search by name</label>
+                <input type="text" class="form-control" id="by_name" name="name" placeholder="Search by Name">
+              </div>
+            </form>
+            <br>
+            <table id="myTable" class="table table-striped table-bordered">
               <thead>
                 <tr>
-                  <th width="30%"> Id </th>
-                  <th width="70%"> Organisation Units </th>
+                  <th width="10%"></th>
+                  <th width="30%"> Unique id </th>
+                  <th width="60%"> Organisation Units </th>
                 </tr>
               </thead>
               <tbody>
               {% for org in organisation_units %}
                 <tr>
+                  <td> {{ organisation_units.index(org) + 1}} </td>
                   <td> {{ org['id'] }} </td>
                   <td> {{ org['displayName'] }} </td>
                 </tr>
