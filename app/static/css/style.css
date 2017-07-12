@@ -9,7 +9,7 @@ body, h1, h2, h3 {
 }
 
 a, .navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
-  color: #aec251;
+  color: #AD1457;
 }
 
 a:hover, .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav>li>a:hover {
@@ -68,8 +68,7 @@ p.copyright {
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
-  color: #f8f8f8;
-  background: url(../img/intro-bg.jpg) no-repeat center center;
+  color: #9C27B0;
   background-size: cover;
   height: 100%;
 }
@@ -121,4 +120,25 @@ p.copyright {
 .inner {
     margin-left: auto;
     margin-right: auto;
+}
+
+.pagination-page-info {
+    padding: .6em;
+    padding-left: 0;
+    width: 40em;
+    margin: .5em;
+    margin-left: 0;
+    font-size: 12px;
+}
+.pagination-page-info b {
+    color: black;
+    background: #6aa6ed;
+    padding-left: 2px;
+    padding: .1em .25em;
+    font-size: 150%;
+}
+
+.layer {
+  width: 1000px;
+  height: 720px;
 }
