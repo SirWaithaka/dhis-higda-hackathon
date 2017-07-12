@@ -1,0 +1,37 @@
+periodid,periodname,periodcode,perioddescription,dataid,dataname,datacode,datadescription,total
+201607,July 2016,201607,,s46m5MS0hxu,BCG doses given,DE_359706,BCG doses administered.,21208.0
+201607,July 2016,201607,,YtbsuPPo010,Measles doses given,DE_34,,17076.0
+201607,July 2016,201607,,l6byfWFUGaP,Yellow Fever doses given,DE_35,,17064.0
+201608,August 2016,201608,,s46m5MS0hxu,BCG doses given,DE_359706,BCG doses administered.,20311.0
+201608,August 2016,201608,,YtbsuPPo010,Measles doses given,DE_34,,19144.0
+201608,August 2016,201608,,l6byfWFUGaP,Yellow Fever doses given,DE_35,,19076.0
+201609,September 2016,201609,,s46m5MS0hxu,BCG doses given,DE_359706,BCG doses administered.,21090.0
+201609,September 2016,201609,,YtbsuPPo010,Measles doses given,DE_34,,19610.0
+201609,September 2016,201609,,l6byfWFUGaP,Yellow Fever doses given,DE_35,,19548.0
+201610,October 2016,201610,,s46m5MS0hxu,BCG doses given,DE_359706,BCG doses administered.,16691.0
+201610,October 2016,201610,,YtbsuPPo010,Measles doses given,DE_34,,15763.0
+201610,October 2016,201610,,l6byfWFUGaP,Yellow Fever doses given,DE_35,,14949.0
+201611,November 2016,201611,,s46m5MS0hxu,BCG doses given,DE_359706,BCG doses administered.,17400.0
+201611,November 2016,201611,,YtbsuPPo010,Measles doses given,DE_34,,16679.0
+201611,November 2016,201611,,l6byfWFUGaP,Yellow Fever doses given,DE_35,,16362.0
+201612,December 2016,201612,,s46m5MS0hxu,BCG doses given,DE_359706,BCG doses administered.,13634.0
+201612,December 2016,201612,,YtbsuPPo010,Measles doses given,DE_34,,11798.0
+201612,December 2016,201612,,l6byfWFUGaP,Yellow Fever doses given,DE_35,,11644.0
+201701,January 2017,201701,,s46m5MS0hxu,BCG doses given,DE_359706,BCG doses administered.,20031.0
+201701,January 2017,201701,,YtbsuPPo010,Measles doses given,DE_34,,16379.0
+201701,January 2017,201701,,l6byfWFUGaP,Yellow Fever doses given,DE_35,,16215.0
+201702,February 2017,201702,,s46m5MS0hxu,BCG doses given,DE_359706,BCG doses administered.,20483.0
+201702,February 2017,201702,,YtbsuPPo010,Measles doses given,DE_34,,18208.0
+201702,February 2017,201702,,l6byfWFUGaP,Yellow Fever doses given,DE_35,,17927.0
+201703,March 2017,201703,,s46m5MS0hxu,BCG doses given,DE_359706,BCG doses administered.,19396.0
+201703,March 2017,201703,,YtbsuPPo010,Measles doses given,DE_34,,17563.0
+201703,March 2017,201703,,l6byfWFUGaP,Yellow Fever doses given,DE_35,,17373.0
+201704,April 2017,201704,,s46m5MS0hxu,BCG doses given,DE_359706,BCG doses administered.,20410.0
+201704,April 2017,201704,,YtbsuPPo010,Measles doses given,DE_34,,17422.0
+201704,April 2017,201704,,l6byfWFUGaP,Yellow Fever doses given,DE_35,,17295.0
+201705,May 2017,201705,,s46m5MS0hxu,BCG doses given,DE_359706,BCG doses administered.,22402.0
+201705,May 2017,201705,,YtbsuPPo010,Measles doses given,DE_34,,19386.0
+201705,May 2017,201705,,l6byfWFUGaP,Yellow Fever doses given,DE_35,,19423.0
+201706,June 2017,201706,,s46m5MS0hxu,BCG doses given,DE_359706,BCG doses administered.,23243.0
+201706,June 2017,201706,,YtbsuPPo010,Measles doses given,DE_34,,17875.0
+201706,June 2017,201706,,l6byfWFUGaP,Yellow Fever doses given,DE_35,,17913.0
