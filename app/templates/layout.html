@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>{{ title }} | HIGDA - DHIS </title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
     <link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.ico') }}">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/scripts.js') }}"></script>
   </head>
   <body>
     <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
@@ -17,9 +20,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand topnav" href="{{ url_for('home.index') }}">HIGDA</a>
+          <a class="navbar-brand topnav" href="{{ url_for('home.index') }}">Hello Life</a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="{{ url_for('home.charts') }}">Charts</a></li>
+            <li><a href="{{ url_for('home.elements') }}">Data Elements</a></li>
+            <li><a href="{{ url_for('home.organisations') }}">Organisation Units</a></li>
+          </ul>
         </div>
       </div>
     </nav>
